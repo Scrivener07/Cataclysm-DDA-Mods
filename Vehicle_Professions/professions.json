@@ -171,7 +171,8 @@
           "pants_leather",
           "socks",
           "boots",
-          "shotgun_d"
+          "shotgun_d",
+          "dogfood"
         ],
         "entries": [
           { "item": "jerrycan", "custom-flags": [ "auto_wield" ] }
