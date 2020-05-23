@@ -1,0 +1,14 @@
+[
+	{
+		"type": "MOD_INFO",
+		"ident": "zombie_legacy",
+		"name": "Zombie Legacy",
+		"authors": [ "Hirmuolio" ],
+		"maintainers": [ "Scrivener07" ],
+		"description": "Only spawn classic zombies and natural wildlife. This disables certain buildings and map extras. Superseded by \"Dark Days of the Dead\".",
+		"category": "monster_exclude",
+		"dependencies": [ "dda" ],
+		"version": "1.0",
+		"obsolete": false
+	}
+]
