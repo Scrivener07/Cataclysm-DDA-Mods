@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "vehicle_professions",
+    "name": "Vehicle Professions",
+    "authors": [ "Scrivener07" ],
+    "description": "Adds vehicles to new and existing professions.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ],
+    "version": "1.0.0"
+  }
+]
