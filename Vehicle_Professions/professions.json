@@ -148,5 +148,37 @@
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     }
+  },
+  {
+    "type": "profession",
+    "ident": "road_warrior",
+    "name": "Road Warrior",
+    "description": "",
+    "points": 5,
+    "skills": [
+      { "level": 2, "name": "driving" },
+      { "level": 1, "name": "mechanics" },
+      { "level": 1, "name": "fabrication" }
+    ],
+    "traits": [ "BADKNEES" ],
+    "vehicle": "car_sports",
+    "items": {
+      "both": {
+        "items": [
+          "gloves_fingerless",
+          "tshirt",
+          "jacket_leather",
+          "pants_leather",
+          "socks",
+          "boots",
+          "shotgun_d"
+        ],
+        "entries": [
+          { "item": "jerrycan", "custom-flags": [ "auto_wield" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    }
   }
 ]
