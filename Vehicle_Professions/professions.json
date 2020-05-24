@@ -162,6 +162,7 @@
     ],
     "traits": [ "BADKNEES" ],
     "vehicle": "car_sports",
+    "pets": [ { "name": "mon_dog_auscattle", "amount": 1 } ],
     "items": {
       "both": {
         "items": [
@@ -171,6 +172,7 @@
           "pants_leather",
           "socks",
           "boots",
+          "hose",
           "shotgun_d",
           "dogfood"
         ],
