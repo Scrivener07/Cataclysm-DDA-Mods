@@ -161,7 +161,7 @@
       { "level": 1, "name": "fabrication" }
     ],
     "traits": [ "BADKNEES" ],
-    "vehicle": "car_sports",
+    "vehicle": "car_interceptor_v8",
     "pets": [ { "name": "mon_dog_auscattle", "amount": 1 } ],
     "items": {
       "both": {
