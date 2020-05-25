@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "mad_max",
+    "name": "Mad Max",
+    "authors": [ "Scrivener07" ],
+    "description": "Play as a member of the Main Force Patrol (MFP) – Australia's highway patrol unit.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ],
+    "version": "1.0.0"
+  }
+]

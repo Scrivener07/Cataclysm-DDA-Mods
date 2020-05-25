@@ -30,7 +30,6 @@ Some new professions which will include a vehicle.
 * Road Tourist: Car
 * Mountain Biker: Mountain Bike
 * Trail Biker: Street-Legal Dirt Bike
-* Mad Max: V8 Interceptor
 
 # Notes
 - https://www.reddit.com/r/cataclysmdda/comments/govfno/changes_to_biker_startroad_warrior_idea/frl9fe2?utm_source=share&utm_medium=web2x

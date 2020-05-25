@@ -1,0 +1,24 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "CDDA: Start",
+			"type": "process",
+			"command": "E:\\Games\\Cataclysm\\CDDA\\cataclysm-tiles.exe",
+			"options": {"cwd": "E:\\Games\\Cataclysm\\CDDA"},
+			"problemMatcher": []
+		},
+		{
+			"label": "CDDA: Install Mods",
+			"type": "shell",
+			"command": "install.bat",
+			"problemMatcher": [],
+			"args": [
+				"E:\\Games\\Cataclysm\\CDDA\\data\\mods\\",
+				"E:\\Games\\Cataclysm\\Source\\Cataclysm-DDA-Mods\\"
+			]
+		}
+	]
+}
