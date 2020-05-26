@@ -124,9 +124,9 @@
       "type": "vehicle_part",
       "name": { "str": "mounted tank (100L)" },
       "description": "A fuel tank specially mounted in the vehicles trunk space.",
-      "looks_like": "afs_roof_external_tank",
+      "looks_like": "tank_30gal_drum",
       "item": "30gal_drum",
-      "extend": { "flags": [ "OBSTACLE" ] },
+      "flags": [ "PROTRUSION", "OBSTACLE", "FLUIDTANK" ],
       "size": 100000
     }
 ]
