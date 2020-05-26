@@ -5,6 +5,7 @@
     "name": "V8 Interceptor Pursuit Special",
     "blueprint": [
       [ "o-++-o" ],
+      [ "+=#^'|" ],
       [ "+=##'|" ],
       [ "+=##'|" ],
       [ "o-++-o" ]
@@ -24,11 +25,12 @@
       { "x": 3, "y": -2, "part": "headlight" },
       { "x": 2, "y": 1, "part": "frame_vertical" },
       { "x": 2, "y": 1, "part": "halfboard_vertical" },
-      { "x": 2, "y": 0, "part": "madmax_frame_engine" },
+      { "x": 2, "y": 0, "part": "frame_horizontal" },
       { "x": 2, "y": 0, "part": "engine_v8_modified" },
       { "x": 2, "y": 0, "part": "alternator_truck" },
-      { "x": 2, "y": 0, "part": "battery_car" },
+      { "x": 2, "y": 0, "part": "halfboard_horizontal" },
       { "x": 2, "y": -1, "part": "frame_horizontal" },
+      { "x": 2, "y": -1, "part": "battery_car" },
       { "x": 2, "y": -1, "part": "halfboard_horizontal" },
       { "x": 2, "y": -2, "part": "frame_vertical" },
       { "x": 2, "y": -2, "part": "halfboard_vertical" },
@@ -93,10 +95,10 @@
   },
   {
     "id": "engine_v8_modified",
-    "copy-from": "gasoline_engine",
     "type": "vehicle_part",
-    "item": "v8_combustion_modified",
+    "copy-from": "gasoline_engine",
     "looks_like": "v8_combustion",
+    "item": "v8_combustion_modified",
     "durability": 400,
     "description": "A heavily modified and very powerful 8-cylinder combustion engine with a supercharger and blower.",
     "epower": -400,
@@ -116,9 +118,9 @@
   },
   {
     "id": "v8_combustion_modified",
+    "type": "ENGINE",
     "copy-from": "engine_gasoline",
     "looks_like": "v8_combustion",
-    "type": "ENGINE",
     "name": { "str": "Modified V8 engine" },
     "description": "A heavily modified and very powerful 8-cylinder combustion engine with a supercharger and blower.",
     "weight": "350000 g",
@@ -129,19 +131,13 @@
   },
   {
     "id": "madmax_tank_fuel",
-    "copy-from": "external_tank_small",
     "type": "vehicle_part",
+    "copy-from": "external_tank_small",
+    "looks_like": "tank_30gal_drum",
     "name": { "str": "mounted tank (100L)" },
     "description": "A fuel tank specially mounted in the vehicles trunk space.",
-    "looks_like": "tank_30gal_drum",
     "item": "30gal_drum",
     "flags": [ "PROTRUSION", "OBSTACLE", "FLUIDTANK" ],
     "size": 100000
-  },
-  {
-    "id": "madmax_frame_engine",
-    "copy-from": "frame",
-    "type": "vehicle_part",
-    "symbol": "^"
   }
 ]
