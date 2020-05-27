@@ -6,6 +6,11 @@ REM Directories
 ECHO Game Directory: %1
 ECHO Project Directory: %2
 
+REM Clear Existing
+IF EXIST %1"Zombie_Legacy" (ECHO Y | RMDIR %1"Zombie_Legacy")
+IF EXIST %1"Vehicle_Professions" (ECHO Y | RMDIR %1"Vehicle_Professions")
+IF EXIST %1"Mad_Max" (ECHO Y | RMDIR %1"Mad_Max")
+
 ECHO.
 REM Create Symbolic Links
 MKLINK /D %1"Zombie_Legacy" %2"Zombie_Legacy"
